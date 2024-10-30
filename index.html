@@ -25,9 +25,9 @@
 						<div class="settings">
 							<div class="settings__top">
 								<div class="settings__title">Whale Crypto Alert</div>
-								<div class="settings__btn">
-									<img src="img/settings.svg" alt="">
-									<span><img src="img/settings2.svg" alt=""></span>
+								<div class="settings__btn-wrap">
+									<span class="settings__btn"><img src="img/settings.svg" alt=""></span>
+									<span class="settings__btn2"><img src="img/settings2.svg" alt=""></span>
 								</div>
 							</div>
 							<div class="settings__search">
@@ -133,7 +133,7 @@
                                         </span>
 										Settings
                                     </div>
-                                    <form class="settings__form-wrap">
+                                    <div class="settings__form-wrap">
 										<div class="settings__form-group">
 											<span class="input-title">Config name</span>
 											<input type="text" placeholder="">
@@ -165,7 +165,41 @@
                                         </div>
 										<div class="settings__form-group">
 											<span class="input-title">Transaction amount</span>
-											<input type="text" placeholder="">
+											<div class="select__wrap">
+												<ul class="select__list-default">
+													<li class="select__current">
+														<span><img src="img/select-icon7.svg" alt=""></span>
+														до 100 000$
+													</li>
+													<li class="select-arrow">
+														<svg width="13" height="7" viewBox="0 0 13 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M12 1L7.47222 5.52778C6.9375 6.0625 6.0625 6.0625 5.52778 5.52778L1 1" stroke="#ACACAC" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+														</svg>
+													</li>
+												</ul>
+												<ul class="select__list">
+													<li>
+														<span><img src="img/select-icon7.svg" alt=""></span>
+														до 1000 000$
+													</li>
+													<li>
+														<span><img src="img/select-icon7.svg" alt=""></span>
+														до 500 000$
+													</li>
+													<li>
+														<span><img src="img/select-icon7.svg" alt=""></span>
+														до 1000 000$
+													</li>
+													<li>
+														<span><img src="img/select-icon7.svg" alt=""></span>
+														до 10 000 000$
+													</li>
+													<li>
+														<span><img src="img/select-icon7.svg" alt=""></span>
+														до 100 000 000$
+													</li>
+												</ul>
+											</div>
 										</div>
 										<div class="settings__form-group">
 											<span class="input-title">Transaction type</span>
@@ -254,16 +288,16 @@
 													</li>
 												</ul>
 												<ul class="select__list select__list3">
-													<li class="select__current">
+													<li>
 														1 min
 													</li>
-													<li class="select__current">
+													<li>
 														5 min
 													</li>
-													<li class="select__current">
+													<li>
 														15 min
 													</li>
-													<li class="select__current">
+													<li>
 														30 min
 													</li>
 													<li>
@@ -280,11 +314,11 @@
 											</div>
 										</div>
                                     	<div class="settings__form-group">
-											<button class="settings__form-btn btn btn-violet">
+											<button class="settings__form-btn title-btn btn btn-violet">
 												<span>Save</span>
 											</button>
 										</div>
-									</form>
+									</div>
                                 </div>
                             	<div class="configs">
 									<div class="settings__title title-btn2">
